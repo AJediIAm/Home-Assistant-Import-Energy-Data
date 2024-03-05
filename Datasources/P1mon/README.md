@@ -25,4 +25,4 @@ P1Mon offers the option to export data from the local database. This data can be
     - Optionally: Consolidate the minute interval data into hourly data. (Having minute data significantly reduces performance)
 - Download the ```P1MonDataPrepare.py``` and/or ```P1MonWaterDataPrepare.py``` file and put it in the same directory as the P1Mon data
 - Execute the python script with as parameter the name of the file that contains the exported data ```python P1MonDataPrepare.py e_historie.db.xlsx```. The python script creates the needed files for the generic import script.
-- Follow the steps in the overall how-to
+- Follow the import steps in [How-To](https://github.com/patrickvorgers/Home-Assistant-Import-Energy-Data/tree/main?tab=readme-ov-file#how-to)
